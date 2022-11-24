@@ -296,7 +296,7 @@ public class one_page extends javax.swing.JFrame {
             
             stmt.executeUpdate(ins);
            
-            jLabel8.setText("DATA SUCCESFULLY INSERTED");
+            jLabel8.setText("DATA SUCCESFULLY INSERTED INTO THE DATABASE");
         }
         catch(SQLException e)
         {
